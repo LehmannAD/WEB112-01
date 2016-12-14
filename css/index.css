@@ -1,0 +1,217 @@
+header{
+	color: white;
+}
+footer {
+	background-color: rgba(255,255,255,0.7);
+	text-align:       center;
+	padding:          15px;
+	margin: 0px 10px 10px 10px;
+	font-size:        90%;
+	border-radius: 8px;
+	border-style: solid;
+	border-color: black;
+}
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+	background-image : url('../images/afbackground.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+	font-family:      Georgia, "Times New Roman", Times, serif;
+}
+header img#larmscrest{
+	max-height:100px;
+}
+header img#larmsslogan {
+	max-height:100px;
+	float: right;
+}
+#tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+
+#tableRow {
+	display: table-row;
+}
+#leftbar {
+    display: table-cell;
+	background-color: white;
+	opacity: 0.7;
+    width: 20%;
+    vertical-align: top;
+    border-radius: 8px;
+	font-size:        120%;
+	border-style: solid;
+	border-color: black;
+	text-align: center;
+}
+#rightbar {
+	display: table-cell;
+	background-color: rgba(255,255,255,0.7);
+	font-size:        105%;
+	padding:          15px;
+	vertical-align: top;
+	border-radius: 8px;
+	width: 20%;
+	font-size:        130%;
+	text-align:       center;
+	border-style: solid;
+	border-color: black;
+}
+#main {
+	display: table-cell;
+	padding: 15px;
+	vertical-align: top;
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 8px;
+	font-size:        120%;
+	text-align:       center;
+	border-style: solid;
+	border-color: black;
+}
+table, th, td {
+    border: 1px solid black;
+}
+.cussup {
+	display: table-cell;
+	vertical-align: top;
+	padding: 15px;
+	background-color: rgba(255,255,255,0.7);
+	width: 100%;
+	text-align:       left;
+	font-size:        120%;
+	border-radius: 8px;
+	border-style: solid;
+	border-color: black;
+}
+@media only screen and (max-width: 1080px){
+	.responsive {
+	    width: 100%;
+		height: auto;
+		font-size: 100%
+    }
+}
+@media only screen and (max-width: 720px){
+	.responsive {
+	    width: 100%;
+		height: auto;
+		font-size: 75%
+    }
+}
+@media only screen and (max-width: 480px){
+	.responsive {
+	    width: 100%;
+		height: auto;
+		font-size: 50%
+    }
+}
+.thumbnail {
+	max-width: 30%;
+	border-radius: 8px;
+	border-style: solid;
+	border-color: black;
+}
+.thumbnailbp {
+	max-width: 50%;
+	border-radius: 8px;
+	border-style: solid;
+	border-color: black;
+}
+.lightbox {
+	display: none;
+	position: fixed;
+	z-index: 99999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	opacity: 1;
+}
+
+.lightbox img {
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightbox:target {
+	outline: none;
+	display: block;
+}
+#gallery {
+	opacity: 1;
+}
+ul.topnav {
+	display: block;
+	background-color: rgba(255,255,255,0.7);
+    list-style-type: none;
+    margin: 0px 10px 0px 10px;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    border-radius: 8px;
+    border-style: solid;
+	border-color: black;
+	
+	
+}
+
+ul.topnav li {
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+ul.topnav li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+ul.topnav li a:hover:not(.active) {
+	background-color: black;
+	color: white;
+}
+ul.topnav li.right {
+	float: right;
+}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+ul.share-buttons{
+  list-style: none;
+  text-align:       center;
+  padding:          15px;
+  margin: 0px 10px 10px 10px;
+  font-size:        90%;
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 8px;
+  border-style: solid;
+  border-color: black;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+ul.share-buttons .sr-only {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
